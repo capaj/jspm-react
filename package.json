@@ -1,0 +1,53 @@
+{
+  "name": "react-app",
+  "version": "0.0.1",
+  "description": "react.js app",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "jspm install",
+    "precommit": "npm test",
+    "pretest": "node_modules/.bin/standard",
+    "start": "node server",
+    "test": "NODE_ENV=test mocha",
+    "build": "jspm bundle app --inject --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/capaj/cz-biatlon-frontend.git"
+  },
+  "author": "capajj@gmail.com",
+  "bugs": {
+    "url": "https://gitlab.com/capaj/cz-biatlon-frontend/issues"
+  },
+  "homepage": "https://gitlab.com/capaj/cz-biatlon-frontend#README",
+  "jspm": {
+    "directories": {
+      "baseURL": "public"
+    },
+    "dependencies": {
+      "bluebird": "npm:bluebird@^2.10.1",
+      "capaj/jspm-hot-reloader": "github:capaj/jspm-hot-reloader@^0.1.3",
+      "react": "npm:react@0.13.3",
+      "react-intl": "npm:react-intl@^1.2.0",
+      "react-router": "npm:react-router@^1.0.0-rc3",
+      "react-tap-event-plugin": "npm:react-tap-event-plugin@^0.2.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "dependencies": {
+    "http-server": "^0.8.5",
+    "chokidar-socket-emitter": "^0.1.0"
+  },
+  "devDependencies": {
+    "standard": "^5.3.1"
+  },
+  "standard": {
+    "ignore": [
+      "public/config.js"
+    ]
+  }
+}
