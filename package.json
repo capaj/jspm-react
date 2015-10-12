@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "http-server": "^0.8.5",
-    "chokidar-socket-emitter": "^0.1.0"
+    "chokidar-socket-emitter": "^0.1.1"
   },
   "devDependencies": {
     "standard": "^5.3.1"
