@@ -3,7 +3,7 @@
 
 lightweight React.js boilerplate with JSPM and hot reloading, npm scripts available:
 ```shell
-npm start #starts webserver and watcher
+npm start #starts webserver and watcher, the http port is 9080
 npm build #build your bundle, use purely for production
 npm test 
 ```
