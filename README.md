@@ -5,7 +5,7 @@ lightweight React.js boilerplate with JSPM and hot reloading, npm scripts availa
 ```shell
 npm start #starts webserver and watcher, the http port is 9080
 npm build #build your bundle, use purely for production
-npm test 
+npm test #runs mocha/chai/jsdom tests in node.js
 ```
 
 ## Why choose this over webpack boilerplate?
