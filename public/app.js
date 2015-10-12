@@ -11,8 +11,6 @@ window.ReactIntl = ReactIntl
 // https://github.com/zilverline/react-tap-event-plugin
 injectTapEventPlugin()
 
-// var knex = nexridge('http://localhost:8197')
-
 class RenderForcer extends React.Component {
   constructor () {
     super()
@@ -29,4 +27,8 @@ React.render((
   <RenderForcer/>
 ), document.getElementById('app'))
 
-System.import('jspm_packages/npm/react-intl@1.2.0/dist/locale-data/' + navigator.language)
+var lang = window.navigator.languages ? window.navigator.languages[0] : null
+lang = lang || window.navigator.language || window.navigator.browserLanguage || window.navigator.userLanguage
+if (lang.indexOf('-') !== -1) lang = lang.split('-')[0]
+if (lang.indexOf('_') !== -1) lang = lang.split('_')[0]
+System.import('jspm_packages/npm/react-intl@1.2.0/dist/locale-data/' + lang)
