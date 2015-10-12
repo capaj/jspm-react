@@ -2,10 +2,10 @@
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 lightweight React.js boilerplate with JSPM and hot reloading, npm scripts available:
-```
-npm start
-npm build
-npm test
+```shell
+npm start #starts webserver and watcher
+npm build #build your bundle, use purely for production
+npm test 
 ```
 
 ## Why choose this over webpack boilerplate?
@@ -18,3 +18,4 @@ Make your own style pipeline, this boilerplate doesn't offer one. Me personally,
 - material icons
 - githooks for commit trigerring tests and style check
 - react-router
+- standard.js for codestyle checking
