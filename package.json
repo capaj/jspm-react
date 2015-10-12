@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/capaj/cz-biatlon-frontend.git"
+    "url": "git@github.com:capaj/jspm-react.git"
   },
   "author": "capajj@gmail.com",
   "bugs": {
-    "url": "https://gitlab.com/capaj/cz-biatlon-frontend/issues"
+    "url": "https://github.com/capaj/jspm-react/issues"
   },
-  "homepage": "https://gitlab.com/capaj/cz-biatlon-frontend#README",
+  "homepage": "https://github.com/capaj/jspm-react",
   "jspm": {
     "directories": {
       "baseURL": "public"
