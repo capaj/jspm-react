@@ -23,8 +23,9 @@ System.config({
     "bluebird": "npm:bluebird@2.10.2",
     "capaj/jspm-hot-reloader": "github:capaj/jspm-hot-reloader@0.1.3",
     "core-js": "npm:core-js@1.2.1",
-    "lodash": "npm:lodash@3.10.1",
-    "react": "npm:react@0.13.3",
+    "lodash.clonedeep": "npm:lodash.clonedeep@3.0.2",
+    "react": "npm:react@0.14.0",
+    "react-dom": "npm:react-dom@0.14.0",
     "react-intl": "npm:react-intl@1.2.0",
     "react-router": "npm:react-router@1.0.0-rc3",
     "react-tap-event-plugin": "npm:react-tap-event-plugin@0.2.0",
@@ -144,8 +145,29 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "source-map": "npm:source-map@0.1.31"
     },
-    "npm:lodash@3.10.1": {
+    "npm:lodash._baseassign@3.2.0": {
+      "lodash._basecopy": "npm:lodash._basecopy@3.0.1",
+      "lodash.keys": "npm:lodash.keys@3.1.2"
+    },
+    "npm:lodash._baseclone@3.3.0": {
+      "lodash._arraycopy": "npm:lodash._arraycopy@3.0.0",
+      "lodash._arrayeach": "npm:lodash._arrayeach@3.0.0",
+      "lodash._baseassign": "npm:lodash._baseassign@3.2.0",
+      "lodash._basefor": "npm:lodash._basefor@3.0.2",
+      "lodash.isarray": "npm:lodash.isarray@3.0.4",
+      "lodash.keys": "npm:lodash.keys@3.1.2"
+    },
+    "npm:lodash._basefor@3.0.2": {
       "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:lodash.clonedeep@3.0.2": {
+      "lodash._baseclone": "npm:lodash._baseclone@3.3.0",
+      "lodash._bindcallback": "npm:lodash._bindcallback@3.0.1"
+    },
+    "npm:lodash.keys@3.1.2": {
+      "lodash._getnative": "npm:lodash._getnative@3.9.1",
+      "lodash.isarguments": "npm:lodash.isarguments@3.0.4",
+      "lodash.isarray": "npm:lodash.isarray@3.0.4"
     },
     "npm:loose-envify@1.0.0": {
       "js-tokens": "npm:js-tokens@1.0.1",
@@ -163,11 +185,14 @@ System.config({
       "asap": "npm:asap@2.0.3",
       "fs": "github:jspm/nodelibs-fs@0.1.2"
     },
+    "npm:react-dom@0.14.0": {
+      "react": "npm:react@0.14.0"
+    },
     "npm:react-intl@1.2.0": {
       "intl-format-cache": "npm:intl-format-cache@2.0.4",
       "intl-messageformat": "npm:intl-messageformat@1.1.0",
       "intl-relativeformat": "npm:intl-relativeformat@1.1.0",
-      "react": "npm:react@0.13.3"
+      "react": "npm:react@0.14.0"
     },
     "npm:react-router@1.0.0-rc3": {
       "history": "npm:history@1.12.3",
@@ -177,11 +202,6 @@ System.config({
     "npm:react-tap-event-plugin@0.2.0": {
       "fbjs": "npm:fbjs@0.2.1",
       "react": "npm:react@0.14.0"
-    },
-    "npm:react@0.13.3": {
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
-      "envify": "npm:envify@3.4.0",
-      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:react@0.14.0": {
       "envify": "npm:envify@3.4.0",

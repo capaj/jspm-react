@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 import ReactIntl from 'react-intl'
 import { Router, Route } from 'react-router'
 import injectTapEventPlugin from 'react-tap-event-plugin'
@@ -14,6 +15,8 @@ injectTapEventPlugin()
 class RenderForcer extends React.Component {
   constructor () {
     super()
+  }
+  componentWillMount () {
     this.forceUpdate()  // a little hack to help us rerender when this module is reloaded
   }
   render () {
@@ -23,7 +26,7 @@ class RenderForcer extends React.Component {
   }
 }
 
-React.render((
+ReactDOM.render((
   <RenderForcer/>
 ), document.getElementById('app'))
 
