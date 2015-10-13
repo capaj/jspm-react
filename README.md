@@ -9,7 +9,7 @@ npm test #runs mocha/chai/jsdom tests in node.js
 ```
 
 ## Why choose this over webpack boilerplate?
-Webpack's offering is good, but it is a big hack which lacks robustness. Even such basic thing as component event listeners is not working with webpack hot reloading. JSPMs module system is fast, robust, safe and it will not suprise you-ES6 modules are much predictable when ho reloaded, than raw React components. Try it for yourself.
+Webpack's offering is good, but it is a big hack which lacks robustness. Even such basic thing as component event listeners is not working properly with webpack hot reloading. JSPMs module system is robust and safe. It will not suprise you-ES6 modules are very predictable when hot reloaded, much more than raw React components. Try it for yourself. Speed is certainly not the issue anymore.
 
 ## Styles
 Make your own style pipeline, this boilerplate doesn't offer one. Me personally, I am fine with inline styles inside my react components most of the time, but that is just me.
