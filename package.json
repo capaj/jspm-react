@@ -27,6 +27,7 @@
     "dependencies": {
       "capaj/jspm-hot-reloader": "github:capaj/jspm-hot-reloader@^0.2.0",
       "react": "npm:react@^0.14.0",
+      "react-dom": "npm:react-dom@^0.14.0",
       "react-intl": "npm:react-intl@^1.2.0",
       "react-router": "npm:react-router@^1.0.0-rc3",
       "react-tap-event-plugin": "npm:react-tap-event-plugin@^0.2.0"
