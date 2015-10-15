@@ -14,7 +14,6 @@ describe('Home route', function () {
       search: ''
     }
 
-    console.log(Home, 'home')
     ReactDOM.render((
       <Home/>
     ), document.body)
