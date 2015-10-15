@@ -8,7 +8,7 @@
     "precommit": "npm test",
     "pretest": "node_modules/.bin/standard",
     "start": "node server",
-    "test": "mocha",
+    "test": "node run-tests",
     "build": "jspm bundle app --inject --minify"
   },
   "repository": {
@@ -43,6 +43,13 @@
     "chokidar-socket-emitter": "^0.1.1"
   },
   "devDependencies": {
+    "babel": "^5.8.23",
+    "chai": "^3.3.0",
+    "glob": "^5.0.15",
+    "jsdom": "^6.5.1",
+    "mocha": "^2.3.3",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
     "standard": "^5.3.1"
   },
   "standard": {
