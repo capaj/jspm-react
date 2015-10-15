@@ -25,7 +25,6 @@
       "baseURL": "public"
     },
     "dependencies": {
-      "bluebird": "npm:bluebird@^2.10.1",
       "capaj/jspm-hot-reloader": "github:capaj/jspm-hot-reloader@^0.1.4",
       "react": "npm:react@^0.14.0",
       "react-intl": "npm:react-intl@^1.2.0",
@@ -46,6 +45,7 @@
     "babel": "^5.8.23",
     "chai": "^3.3.0",
     "glob": "^5.0.15",
+    "husky": "^0.10.1",
     "jsdom": "^6.5.1",
     "mocha": "^2.3.3",
     "react": "^0.14.0",
