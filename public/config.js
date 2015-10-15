@@ -21,7 +21,7 @@ System.config({
     "babel": "npm:babel-core@5.8.25",
     "babel-runtime": "npm:babel-runtime@5.8.25",
     "bluebird": "npm:bluebird@2.10.2",
-    "capaj/jspm-hot-reloader": "github:capaj/jspm-hot-reloader@0.1.3",
+    "capaj/jspm-hot-reloader": "github:capaj/jspm-hot-reloader@0.2.0",
     "core-js": "npm:core-js@1.2.1",
     "lodash.clonedeep": "npm:lodash.clonedeep@3.0.2",
     "react": "npm:react@0.14.0",
@@ -29,7 +29,8 @@ System.config({
     "react-intl": "npm:react-intl@1.2.0",
     "react-router": "npm:react-router@1.0.0-rc3",
     "react-tap-event-plugin": "npm:react-tap-event-plugin@0.2.0",
-    "github:capaj/jspm-hot-reloader@0.1.3": {
+    "github:capaj/jspm-hot-reloader@0.2.0": {
+      "lodash.clonedeep": "npm:lodash.clonedeep@3.0.2",
       "socket.io-client": "github:socketio/socket.io-client@1.3.7",
       "weakee": "npm:weakee@0.9.1"
     },
@@ -107,8 +108,9 @@ System.config({
       "promise": "npm:promise@7.0.4",
       "whatwg-fetch": "npm:whatwg-fetch@0.9.0"
     },
-    "npm:fbjs@0.3.1": {
+    "npm:fbjs@0.3.2": {
       "core-js": "npm:core-js@1.2.1",
+      "loose-envify": "npm:loose-envify@1.0.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "promise": "npm:promise@7.0.4",
       "ua-parser-js": "npm:ua-parser-js@0.7.9",
@@ -205,7 +207,7 @@ System.config({
     },
     "npm:react@0.14.0": {
       "envify": "npm:envify@3.4.0",
-      "fbjs": "npm:fbjs@0.3.1",
+      "fbjs": "npm:fbjs@0.3.2",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:readable-stream@1.1.13": {
