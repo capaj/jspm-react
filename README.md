@@ -1,7 +1,16 @@
 # jspm-react 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-lightweight React.js boilerplate with [JSPM](https://github.com/jspm/jspm-cli) and [hot reloading modules](https://github.com/capaj/jspm-hot-reloader), npm scripts available:
+lightweight React.js boilerplate with [JSPM](https://github.com/jspm/jspm-cli) and [hot reloading modules](https://github.com/capaj/jspm-hot-reloader)
+
+### Quickstart to development
+```
+git clone git@github.com:capaj/jspm-react.git
+npm i
+npm start
+```
+
+## npm scripts available:
 ```shell
 npm start #starts webserver and watcher, the http port is 9080
 npm build #build your bundle, use purely for production
@@ -15,8 +24,7 @@ Webpack's offering is good, but it is a big hack which lacks robustness. Even su
 Make your own style pipeline, this boilerplate doesn't offer one. Me personally, I am fine with inline styles inside my react components most of the time, but that is just me.
 
 ## Includes
-- material icons
 - githooks for commit trigerring tests and style check
 - react-router
 - standard.js for codestyle checking
-- simple tests with JSDOM
+- simple tests with Mocha, Chai and JSDOM
