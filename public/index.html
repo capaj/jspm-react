@@ -16,7 +16,7 @@
     if (location.origin.match(/localhost/)) {
       System.trace = true
       System.import('capaj/jspm-hot-reloader').then(function(HotReloader){
-        hr = new HotReloader.default('http://localhost:9081')  // chokidar-socket-emitter port
+        hr = new HotReloader.default('http://localhost:9080')  // chokidar-socket-emitter port
       })
     }
     System.import('app').then(function () {

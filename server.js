@@ -1,5 +1,4 @@
 'use strict'
-require('chokidar-socket-emitter')({port: 9081})
 const httpServer = require('http-server')
 
 let cache = 3600
@@ -17,4 +16,7 @@ const server = httpServer.createServer({
     'Access-Control-Allow-Credentials': 'true'
   }
 })
+
+require('chokidar-socket-emitter')({app: server.server})
+
 server.listen(9080)
