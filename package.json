@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "react.js app",
   "main": "server.js",
+  "engines" : { "node" : ">=4.0.0" },
   "scripts": {
     "postinstall": "jspm install",
     "precommit": "npm test",
