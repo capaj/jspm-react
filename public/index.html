@@ -13,14 +13,17 @@
 <script src="config.js"></script>
 <script src="https://cdn.polyfill.io/v1/polyfill.min.js?features=Intl.~locale.en,Intl.~locale.cs"></script>
 <script>
+    var readyForMainLoad
     if (location.origin.match(/localhost/)) {
-      System.trace = true
-      System.import('capaj/jspm-hot-reloader').then(function(HotReloader){
-        hr = new HotReloader.default('http://localhost:9080')  // chokidar-socket-emitter port
-      })
+     System.trace = true
+     readyForMainLoad = System.import('capaj/jspm-hot-reloader').then(function(HotReloader){
+       hr = new HotReloader.default('http://localhost:9080')  // chokidar-socket-emitter port
+     })
     }
-    System.import('app').then(function () {
-        console.log('ran at ', new Date());
+    Promise.resolve(readyForMainLoad).then(() => {
+     System.import('app').then(function () {
+       console.log('ran at ', new Date());
+     })
     })
 </script>
 </body>
