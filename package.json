@@ -28,11 +28,11 @@
       "baseURL": "public"
     },
     "dependencies": {
-      "capaj/jspm-hot-reloader": "github:capaj/jspm-hot-reloader@^0.2.1",
-      "react": "npm:react@^0.14.0",
-      "react-dom": "npm:react-dom@^0.14.0",
-      "react-intl": "npm:react-intl@2.0.0-pr-2",
-      "react-router": "npm:react-router@^1.0.0-rc3",
+      "capaj/jspm-hot-reloader": "github:capaj/jspm-hot-reloader@^0.3.0",
+      "react": "npm:react@^0.14.2",
+      "react-dom": "npm:react-dom@^0.14.2",
+      "react-intl": "npm:react-intl@2.0.0-beta-1",
+      "react-router": "npm:react-router@^1.0.0-rc4",
       "react-tap-event-plugin": "npm:react-tap-event-plugin@^0.2.1"
     },
     "devDependencies": {
@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "http-server": "^0.8.5",
-    "chokidar-socket-emitter": "^0.2.0"
+    "chokidar-socket-emitter": "^0.3.0"
   },
   "devDependencies": {
     "babel": "^5.8.23",
@@ -53,8 +53,8 @@
     "jsdom": "^6.5.1",
     "mocha": "^2.3.3",
     "mocha-jsdom": "^1.0.0",
-    "react": "^0.14.0",
-    "react-dom": "^0.14.0",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
     "standard": "^5.3.1"
   },
   "standard": {

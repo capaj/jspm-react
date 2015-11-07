@@ -21,7 +21,7 @@ System.config({
     "babel": "npm:babel-core@5.8.25",
     "babel-runtime": "npm:babel-runtime@5.8.25",
     "bluebird": "npm:bluebird@2.10.2",
-    "capaj/jspm-hot-reloader": "github:capaj/jspm-hot-reloader@0.2.1",
+    "capaj/jspm-hot-reloader": "github:capaj/jspm-hot-reloader@0.3.0",
     "core-js": "npm:core-js@1.2.2",
     "lodash.clonedeep": "npm:lodash.clonedeep@3.0.2",
     "react": "npm:react@0.14.0",
@@ -29,7 +29,7 @@ System.config({
     "react-intl": "npm:react-intl@2.0.0-pr-2",
     "react-router": "npm:react-router@1.0.0-rc3",
     "react-tap-event-plugin": "npm:react-tap-event-plugin@0.2.1",
-    "github:capaj/jspm-hot-reloader@0.2.1": {
+    "github:capaj/jspm-hot-reloader@0.3.0": {
       "lodash.clonedeep": "npm:lodash.clonedeep@3.0.2",
       "socket.io-client": "github:socketio/socket.io-client@1.3.7",
       "weakee": "npm:weakee@0.9.1"
