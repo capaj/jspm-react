@@ -28,11 +28,11 @@
       "baseURL": "public"
     },
     "dependencies": {
-      "capaj/jspm-hot-reloader": "github:capaj/jspm-hot-reloader@^0.4.2",
+      "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.0",
       "react": "npm:react@^0.14.3",
       "react-dom": "npm:react-dom@^0.14.3",
       "react-intl": "npm:react-intl@2.0.0-beta-1",
-      "react-router": "npm:react-router@^1.0.0",
+      "react-router": "npm:react-router@^1.0.2",
       "react-tap-event-plugin": "npm:react-tap-event-plugin@^0.2.1"
     },
     "devDependencies": {
@@ -50,12 +50,12 @@
     "chai": "^3.3.0",
     "glob": "^5.0.15",
     "husky": "^0.10.1",
-    "jsdom": "^6.5.1",
     "mocha": "^2.3.3",
     "mocha-jsdom": "^1.0.0",
     "react": "^0.14.3",
-    "react-dom": "^0.14.3",
-    "standard": "^5.3.1"
+    "react-addons-test-utils": "^0.14.3",
+    "standard": "^5.3.1",
+    "systemjs": "^0.19.6"
   },
   "standard": {
     "ignore": [
