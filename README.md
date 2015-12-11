@@ -25,6 +25,7 @@ Make your own style pipeline, this boilerplate doesn't offer one. Me personally,
 
 ## Includes
 - githooks for commit trigerring tests and style check
+- airbnb's enzyme for unit testing
 - react-router
 - standard.js for codestyle checking
 - simple tests with Mocha, Chai and JSDOM
