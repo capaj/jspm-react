@@ -15,14 +15,14 @@ System.config({
   map: {
     "babel": "npm:babel-core@5.8.34",
     "babel-runtime": "npm:babel-runtime@5.8.34",
-    "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@0.5.0",
+    "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@0.5.1",
     "core-js": "npm:core-js@1.2.6",
     "react": "npm:react@0.14.3",
     "react-dom": "npm:react-dom@0.14.3",
     "react-intl": "npm:react-intl@2.0.0-beta-1",
     "react-router": "npm:react-router@1.0.2",
     "react-tap-event-plugin": "npm:react-tap-event-plugin@0.2.1",
-    "github:capaj/systemjs-hot-reloader@0.5.0": {
+    "github:capaj/systemjs-hot-reloader@0.5.1": {
       "debug": "npm:debug@2.2.0",
       "socket.io-client": "github:socketio/socket.io-client@1.3.7",
       "weakee": "npm:weakee@0.9.1"
@@ -40,7 +40,7 @@ System.config({
       "crypto-browserify": "npm:crypto-browserify@3.11.0"
     },
     "github:jspm/nodelibs-domain@0.1.0": {
-      "domain-browser": "npm:domain-browser@1.1.6"
+      "domain-browser": "npm:domain-browser@1.1.7"
     },
     "github:jspm/nodelibs-events@0.1.1": {
       "events": "npm:events@1.0.2"
@@ -243,7 +243,7 @@ System.config({
       "randombytes": "npm:randombytes@2.0.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
-    "npm:domain-browser@1.1.6": {
+    "npm:domain-browser@1.1.7": {
       "events": "github:jspm/nodelibs-events@0.1.1"
     },
     "npm:elliptic@6.0.2": {
@@ -278,7 +278,7 @@ System.config({
       "loose-envify": "npm:loose-envify@1.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "promise": "npm:promise@7.0.4",
-      "ua-parser-js": "npm:ua-parser-js@0.7.9",
+      "ua-parser-js": "npm:ua-parser-js@0.7.10",
       "whatwg-fetch": "npm:whatwg-fetch@0.9.0"
     },
     "npm:hash.js@1.0.3": {
@@ -438,7 +438,7 @@ System.config({
     "npm:timers-browserify@1.4.2": {
       "process": "npm:process@0.11.2"
     },
-    "npm:ua-parser-js@0.7.9": {
+    "npm:ua-parser-js@0.7.10": {
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
     "npm:url@0.10.3": {
