@@ -17,6 +17,8 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.34",
     "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@0.5.1",
     "core-js": "npm:core-js@1.2.6",
+    "mobservable": "npm:mobservable@1.1.6",
+    "mobservable-react": "npm:mobservable-react@2.1.0",
     "react": "npm:react@0.14.3",
     "react-dom": "npm:react-dom@0.14.3",
     "react-intl": "npm:react-intl@2.0.0-beta-1",
@@ -323,6 +325,11 @@ System.config({
     "npm:miller-rabin@4.0.0": {
       "bn.js": "npm:bn.js@4.5.1",
       "brorand": "npm:brorand@1.0.5"
+    },
+    "npm:mobservable-react@2.1.0": {
+      "mobservable": "npm:mobservable@1.1.6",
+      "react": "npm:react@0.14.3",
+      "react-dom": "npm:react-dom@0.14.3"
     },
     "npm:parse-asn1@5.0.0": {
       "asn1.js": "npm:asn1.js@4.2.1",

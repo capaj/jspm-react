@@ -1,4 +1,4 @@
-# jspm-react 
+# jspm-react
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 lightweight React.js boilerplate with [JSPM](https://github.com/jspm/jspm-cli) and [hot reloading modules](https://github.com/capaj/jspm-hot-reloader)
@@ -26,6 +26,7 @@ Make your own style pipeline, this boilerplate doesn't offer one. Me personally,
 ## Includes
 - githooks for commit trigerring tests and style check
 - airbnb's enzyme for unit testing
+- mobservable for easy state management powered by ES5 getters/setters
 - react-router
 - standard.js for codestyle checking
 - simple tests with Mocha, Chai and JSDOM
