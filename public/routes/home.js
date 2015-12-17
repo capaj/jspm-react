@@ -1,5 +1,5 @@
 import React from 'react'
-import Stateless from '../components/stateles-sample'
+import Stateless from '../components/stateless-sample'
 
 export default class Home extends React.Component {
   constructor (...props) {
