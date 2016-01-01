@@ -29,12 +29,12 @@
     },
     "dependencies": {
       "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.1",
-      "mobservable": "npm:mobservable@^1.1.6",
+      "mobservable": "npm:mobservable@^1.2.0",
       "mobservable-react": "npm:mobservable-react@^2.1.0",
-      "react": "npm:react@^0.14.3",
-      "react-dom": "npm:react-dom@^0.14.3",
-      "react-intl": "npm:react-intl@2.0.0-beta-1",
-      "react-router": "npm:react-router@^1.0.2",
+      "react": "npm:react@^0.14.5",
+      "react-dom": "npm:react-dom@^0.14.5",
+      "react-intl": "npm:react-intl@2.0.0-beta-2",
+      "react-router": "npm:react-router@^1.0.3",
       "react-tap-event-plugin": "npm:react-tap-event-plugin@^0.2.1"
     },
     "devDependencies": {
