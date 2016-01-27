@@ -28,7 +28,7 @@
       "baseURL": "public"
     },
     "dependencies": {
-      "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.3",
+      "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.5",
       "mobservable": "npm:mobservable@^1.2.2",
       "mobservable-react": "npm:mobservable-react@^2.1.1",
       "react": "npm:react@^0.14.6",
