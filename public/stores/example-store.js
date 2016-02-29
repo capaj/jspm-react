@@ -1,4 +1,4 @@
-import {observable} from 'mobservable'
+import {observable} from 'mobx'
 const counter = observable({
   value: 0
 })

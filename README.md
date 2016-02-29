@@ -25,7 +25,7 @@ Make your own style pipeline, this boilerplate doesn't offer one. Me personally,
 
 ## Includes
 - githooks for commit trigerring tests and style check
-- mobservable for easy state management powered by ES5 getters/setters
+- MobX for easy/reliable/fast state management powered by ES5 getters/setters
 - react-router
 - standard.js for codestyle checking
 - simple unit/midway tests with Mocha, Chai and airbnb's enzyme

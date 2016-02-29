@@ -17,8 +17,8 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.34",
     "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@0.5.5",
     "core-js": "npm:core-js@1.2.6",
-    "mobservable": "npm:mobservable@1.2.0",
-    "mobservable-react": "npm:mobservable-react@2.1.1",
+    "mobx": "npm:mobx@2.0.0",
+    "mobx-react": "npm:mobx-react@3.0.0",
     "react": "npm:react@0.14.5",
     "react-dom": "npm:react-dom@0.14.5",
     "react-intl": "npm:react-intl@2.0.0-beta-2",
@@ -283,6 +283,9 @@ System.config({
       "ua-parser-js": "npm:ua-parser-js@0.7.10",
       "whatwg-fetch": "npm:whatwg-fetch@0.9.0"
     },
+    "npm:fbjs@0.6.1": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
     "npm:hash.js@1.0.3": {
       "inherits": "npm:inherits@2.0.1"
     },
@@ -326,10 +329,10 @@ System.config({
       "bn.js": "npm:bn.js@4.8.1",
       "brorand": "npm:brorand@1.0.5"
     },
-    "npm:mobservable-react@2.1.1": {
-      "mobservable": "npm:mobservable@1.2.0",
-      "react": "npm:react@0.14.5",
-      "react-dom": "npm:react-dom@0.14.5"
+    "npm:mobx-react@3.0.0": {
+      "mobx": "npm:mobx@2.0.0",
+      "react": "npm:react@0.14.7",
+      "react-dom": "npm:react-dom@0.14.7"
     },
     "npm:parse-asn1@5.0.0": {
       "asn1.js": "npm:asn1.js@4.3.0",
@@ -382,6 +385,9 @@ System.config({
     "npm:react-dom@0.14.5": {
       "react": "npm:react@0.14.5"
     },
+    "npm:react-dom@0.14.7": {
+      "react": "npm:react@0.14.7"
+    },
     "npm:react-intl@2.0.0-beta-2": {
       "intl-format-cache": "npm:intl-format-cache@2.0.5",
       "intl-messageformat": "npm:intl-messageformat@1.2.0",
@@ -405,6 +411,10 @@ System.config({
     "npm:react@0.14.5": {
       "envify": "npm:envify@3.4.0",
       "fbjs": "npm:fbjs@0.6.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:react@0.14.7": {
+      "fbjs": "npm:fbjs@0.6.1",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:readable-stream@1.1.13": {

@@ -1,6 +1,6 @@
 import React, {PropTypes} from 'react'
 import counter from '../stores/example-store'
-import {observer} from 'mobservable-react'
+import {observer} from 'mobx-react'
 
 const Test = (props) => {
   return <div onClick={() => counter.value++}>click to increase counter value: {counter.value}</div>
