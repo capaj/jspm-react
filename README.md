@@ -24,8 +24,7 @@ Webpack's offering is good, but it is a big hack which lacks robustness. Even su
 Make your own style pipeline, this boilerplate doesn't offer one. Me personally, I am fine with inline styles inside my react components most of the time, but that is just me.
 
 ## Includes
-- githooks for commit trigerring tests and style check
-- MobX for easy/reliable/fast state management powered by ES5 getters/setters
+- githooks via [husky](https://github.com/typicode/husky) for commit trigerring tests and style check
+- [MobX](https://github.com/mobxjs/mobx) for easy/reliable/fast state management powered by ES5 getters/setters
 - react-router
-- standard.js for codestyle checking
-- simple unit/midway tests with Mocha, Chai and airbnb's enzyme
+- simple unit/midway tests with [Mocha](https://github.com/mochajs/mocha), [Chai](https://github.com/chaijs/chai) and airbnb's [enzyme](https://github.com/airbnb/enzyme)
