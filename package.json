@@ -29,13 +29,12 @@
     },
     "dependencies": {
       "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.5",
-      "mobx": "npm:mobx@^2.0.0",
-      "mobx-react": "npm:mobx-react@^3.0.0",
-      "react": "npm:react@^0.14.6",
-      "react-dom": "npm:react-dom@^0.14.6",
-      "react-intl": "npm:react-intl@2.0.0-beta-2",
-      "react-router": "npm:react-router@^1.0.3",
-      "react-tap-event-plugin": "npm:react-tap-event-plugin@^0.2.1"
+      "mobx": "npm:mobx@^2.1.1",
+      "mobx-react": "npm:mobx-react@^3.0.3",
+      "react": "npm:react@^15.0.0",
+      "react-dom": "npm:react-dom@^15.0.0",
+      "react-intl": "npm:react-intl@2.0.1",
+      "react-router": "npm:react-router@^2.0.1"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
@@ -45,19 +44,19 @@
   },
   "dependencies": {
     "http-server": "^0.8.5",
-    "chokidar-socket-emitter": "^0.4.2"
+    "chokidar-socket-emitter": "^0.5.1"
   },
   "devDependencies": {
     "babel": "^5.8.23",
     "chai": "^3.3.0",
-    "enzyme": "^1.2.0",
+    "enzyme": "^2.2.0",
     "glob": "^5.0.15",
     "husky": "^0.10.1",
     "mocha": "^2.3.3",
     "mocha-jsdom": "^1.0.0",
-    "react": "^0.14.6",
-    "react-addons-test-utils": "^0.14.6",
-    "react-dom": "^0.14.6",
+    "react": "^15.0.0",
+    "react-addons-test-utils": "^15.0.0",
+    "react-dom": "^15.0.0",
     "standard": "^5.4.1",
     "systemjs": "^0.19.15"
   },
