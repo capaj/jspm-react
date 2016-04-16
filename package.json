@@ -28,8 +28,8 @@
       "baseURL": "public"
     },
     "dependencies": {
-      "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.5",
-      "mobx": "npm:mobx@^2.1.1",
+      "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.7",
+      "mobx": "npm:mobx@^2.1.3",
       "mobx-react": "npm:mobx-react@^3.0.3",
       "react": "npm:react@^15.0.0",
       "react-dom": "npm:react-dom@^15.0.0",
