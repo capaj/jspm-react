@@ -2,30 +2,28 @@ import 'capaj/systemjs-hot-reloader/default-listener'
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { browserHistory } from 'react-router'
-import { Router, Route } from 'react-router'
+import { Router, Route, browserHistory } from 'react-router'
 
 import Home from './routes/home'
 import { IntlProvider, addLocaleData } from 'react-intl'
 import en from 'react-intl/locale-data/en'
 addLocaleData(en)
 
+const routes = <Route path='/' component={Home} />
+
 class RenderForcer extends React.Component {
-  constructor () {
-    super()
-  }
   componentWillMount () {
     this.forceUpdate()  // a little hack to help us rerender when this module is reloaded
   }
   render () {
     return <IntlProvider locale='en'>
       <Router history={browserHistory}>
-        <Route path='/' component={Home}/>
-     </Router>
+        {routes}
+      </Router>
     </IntlProvider>
   }
 }
 
 ReactDOM.render((
-  <RenderForcer/>
+  <RenderForcer />
 ), document.getElementById('app'))

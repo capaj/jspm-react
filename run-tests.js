@@ -5,7 +5,7 @@ System.config({
 require('./public/jspm.browser')
 require('./public/jspm.config')
 
-require('babel/register')
+require('babel-register')
 
 const Mocha = require('mocha')
 const glob = require('glob')
