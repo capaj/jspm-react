@@ -8,6 +8,8 @@ import { IntlProvider, addLocaleData } from 'react-intl'
 import en from 'react-intl/locale-data/en'
 addLocaleData(en)
 
+const routes = <Route path='/' component={Home}/>
+
 class RenderForcer extends React.Component {
   constructor () {
     super()
@@ -18,8 +20,8 @@ class RenderForcer extends React.Component {
   render () {
     return <IntlProvider locale='en'>
       <Router history={browserHistory}>
-        <Route path='/' component={Home}/>
-     </Router>
+        {routes}
+      </Router>
     </IntlProvider>
   }
 }
