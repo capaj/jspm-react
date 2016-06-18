@@ -3,8 +3,7 @@ System.config({
   baseURL: 'public/'
 })
 require('./public/config')  // gets the same config as is used in the browser
-
-require('babel/register')
+require('babel-register')
 
 const Mocha = require('mocha')
 const glob = require('glob')
