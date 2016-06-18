@@ -40,19 +40,19 @@
         "devDependencies": {
             "babel-plugin-transform-react-jsx": "npm:babel-plugin-transform-react-jsx@^6.8.0",
             "core-js": "npm:core-js@^2.4.0",
-            "fs": "github:jspm/nodelibs-fs@^0.2.0-alpha",
-            "path": "github:jspm/nodelibs-path@^0.2.0-alpha",
-            "plugin-babel": "npm:systemjs-plugin-babel@^0.0.10",
-            "process": "github:jspm/nodelibs-process@^0.2.0-alpha"
+            "plugin-babel": "npm:systemjs-plugin-babel@^0.0.10"
         },
         "peerDependencies": {
             "assert": "github:jspm/nodelibs-assert@^0.2.0-alpha",
             "buffer": "github:jspm/nodelibs-buffer@^0.2.0-alpha",
             "domain": "github:jspm/nodelibs-domain@^0.2.0-alpha",
             "events": "github:jspm/nodelibs-events@^0.2.0-alpha",
+            "fs": "github:jspm/nodelibs-fs@^0.2.0-alpha",
             "http": "github:jspm/nodelibs-http@^0.2.0-alpha",
             "https": "github:jspm/nodelibs-https@^0.2.0-alpha",
             "net": "github:jspm/nodelibs-net@^0.2.0-alpha",
+            "path": "github:jspm/nodelibs-path@^0.2.0-alpha",
+            "process": "github:jspm/nodelibs-process@^0.2.0-alpha",
             "stream": "github:jspm/nodelibs-stream@^0.2.0-alpha",
             "string_decoder": "github:jspm/nodelibs-string_decoder@^0.2.0-alpha",
             "tty": "github:jspm/nodelibs-tty@^0.2.0-alpha",

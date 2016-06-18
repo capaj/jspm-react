@@ -2,8 +2,8 @@ require('systemjs')
 System.config({
   baseURL: 'public/'
 })
-require('./public/jspm.browser')  // gets the same config as is used in the browser
-require('./public/jspm.config')  // gets the same config as is used in the browser
+require('./public/jspm.browser')
+require('./public/jspm.config')
 
 require('babel/register')
 

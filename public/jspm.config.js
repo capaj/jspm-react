@@ -1,6 +1,5 @@
 SystemJS.config({
     transpiler: "plugin-babel",
-    format: "esm",
     meta: {
         "*.js": {
             "babelOptions": {
