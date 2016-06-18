@@ -3,7 +3,7 @@
 
 lightweight React.js boilerplate with [JSPM](https://github.com/jspm/jspm-cli) and [hot reloading modules](https://github.com/capaj/jspm-hot-reloader)
 
-master branch has JSPM 0.16, for 0.17 use branch jspm-0.17. 0.17.0 is still betam so for production deployments, I would advise against using JSPM 0.17
+master branch has JSPM 0.16, for 0.17 use branch jspm-0.17. JSPM 0.17 is still beta, I would advise against using JSPM 0.17 for production deployments for now.
 
 ### Quickstart to development
 ```
