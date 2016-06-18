@@ -1,69 +1,122 @@
 {
-  "name": "react-app",
-  "version": "0.0.1",
-  "description": "react.js app",
-  "main": "server.js",
-  "engines": {
-    "node": ">=4.0.0"
-  },
-  "scripts": {
-    "postinstall": "jspm install",
-    "precommit": "npm test",
-    "pretest": "node_modules/.bin/standard",
-    "start": "node server",
-    "test": "node run-tests",
-    "build": "jspm bundle app --inject --minify"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:capaj/jspm-react.git"
-  },
-  "author": "capajj@gmail.com",
-  "bugs": {
-    "url": "https://github.com/capaj/jspm-react/issues"
-  },
-  "homepage": "https://github.com/capaj/jspm-react",
-  "jspm": {
-    "directories": {
-      "baseURL": "public"
+    "name": "react-app",
+    "version": "0.0.1",
+    "description": "react.js app",
+    "main": "app.js",
+    "engines": {
+        "node": ">=4.0.0"
+    },
+    "scripts": {
+        "postinstall": "jspm install",
+        "precommit": "npm test",
+        "pretest": "node_modules/.bin/standard",
+        "start": "node server",
+        "test": "node run-tests",
+        "build": "jspm bundle app --inject --minify"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:capaj/jspm-react.git"
+    },
+    "author": "capajj@gmail.com",
+    "bugs": {
+        "url": "https://github.com/capaj/jspm-react/issues"
+    },
+    "homepage": "https://github.com/capaj/jspm-react",
+    "jspm": {
+        "directories": {
+            "baseURL": "public"
+        },
+        "dependencies": {
+            "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.6.0",
+            "mobx": "npm:mobx@^2.3.1",
+            "mobx-react": "npm:mobx-react@^3.3.1",
+            "react": "npm:react@^15.1.0",
+            "react-dom": "npm:react-dom@^15.1.0",
+            "react-intl": "npm:react-intl@2.1.3",
+            "react-router": "npm:react-router@^2.4.0",
+            "systemjs-plugin-babel": "npm:systemjs-plugin-babel@^0.0.10"
+        },
+        "devDependencies": {
+            "babel-plugin-transform-react-jsx": "npm:babel-plugin-transform-react-jsx@^6.8.0",
+            "core-js": "npm:core-js@^2.4.0",
+            "fs": "github:jspm/nodelibs-fs@^0.2.0-alpha",
+            "path": "github:jspm/nodelibs-path@^0.2.0-alpha",
+            "plugin-babel": "npm:systemjs-plugin-babel@^0.0.10",
+            "process": "github:jspm/nodelibs-process@^0.2.0-alpha"
+        },
+        "peerDependencies": {
+            "assert": "github:jspm/nodelibs-assert@^0.2.0-alpha",
+            "buffer": "github:jspm/nodelibs-buffer@^0.2.0-alpha",
+            "domain": "github:jspm/nodelibs-domain@^0.2.0-alpha",
+            "events": "github:jspm/nodelibs-events@^0.2.0-alpha",
+            "http": "github:jspm/nodelibs-http@^0.2.0-alpha",
+            "https": "github:jspm/nodelibs-https@^0.2.0-alpha",
+            "net": "github:jspm/nodelibs-net@^0.2.0-alpha",
+            "stream": "github:jspm/nodelibs-stream@^0.2.0-alpha",
+            "string_decoder": "github:jspm/nodelibs-string_decoder@^0.2.0-alpha",
+            "tty": "github:jspm/nodelibs-tty@^0.2.0-alpha",
+            "url": "github:jspm/nodelibs-url@^0.2.0-alpha",
+            "util": "github:jspm/nodelibs-util@^0.2.0-alpha",
+            "zlib": "github:jspm/nodelibs-zlib@^0.2.0-alpha"
+        },
+        "overrides": {
+            "npm:browserify-zlib@0.1.4": {
+                "dependencies": {
+                    "readable-stream": "^2.0.2",
+                    "pako": "~0.2.0"
+                },
+                "map": {
+                    "_stream_transform": "readable-stream/transform"
+                }
+            },
+            "npm:debug@2.2.0": {
+                "main": "browser.js",
+                "jspmNodeConversion": false,
+                "format": "cjs",
+                "map": {
+                    "./browser.js": {
+                        "node": "./node.js"
+                    },
+                    "fs": "@node/fs",
+                    "net": "@node/net",
+                    "tty": "@node/tty",
+                    "util": "@node/util"
+                }
+            },
+            "npm:inherits@2.0.1": {
+                "ignore": [
+                    "test.js"
+                ]
+            },
+            "npm:ms@0.7.1": {
+                "jspmNodeConversion": false,
+                "format": "cjs"
+            }
+        }
     },
     "dependencies": {
-      "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.7",
-      "mobx": "npm:mobx@^2.1.3",
-      "mobx-react": "npm:mobx-react@^3.0.3",
-      "react": "npm:react@^15.0.2",
-      "react-dom": "npm:react-dom@^15.0.2",
-      "react-intl": "npm:react-intl@2.0.1",
-      "react-router": "npm:react-router@^2.4.0"
+        "http-server": "^0.9.0",
+        "chokidar-socket-emitter": "^0.5.2"
     },
     "devDependencies": {
-      "babel": "npm:babel-core@^5.8.24",
-      "babel-runtime": "npm:babel-runtime@^5.8.24",
-      "core-js": "npm:core-js@^1.1.4"
+        "babel": "^6.5.2",
+        "chai": "^3.5.0",
+        "enzyme": "^2.3.0",
+        "glob": "^7.0.3",
+        "husky": "^0.11.4",
+        "jspm": "^0.17.0-beta.14",
+        "mocha": "^2.4.5",
+        "mocha-jsdom": "^1.1.0",
+        "react": "^15.0.2",
+        "react-addons-test-utils": "^15.0.2",
+        "react-dom": "^15.0.2",
+        "standard": "^7.0.1",
+        "systemjs": "^0.19.27"
+    },
+    "standard": {
+        "ignore": [
+            "public/jspm.*.js"
+        ]
     }
-  },
-  "dependencies": {
-    "http-server": "^0.9.0",
-    "chokidar-socket-emitter": "^0.5.2"
-  },
-  "devDependencies": {
-    "babel": "^6.5.2",
-    "chai": "^3.5.0",
-    "enzyme": "^2.3.0",
-    "glob": "^7.0.3",
-    "husky": "^0.11.4",
-    "jspm": "^0.16.34",
-    "mocha": "^2.4.5",
-    "mocha-jsdom": "^1.1.0",
-    "react": "^15.0.2",
-    "react-addons-test-utils": "^15.0.2",
-    "react-dom": "^15.0.2",
-    "standard": "^7.0.1",
-    "systemjs": "^0.19.27"
-  },
-  "standard": {
-    "ignore": [
-      "public/config.js"
-    ]
-  }
 }

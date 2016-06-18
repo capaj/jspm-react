@@ -10,21 +10,11 @@
 <body>
 <div id="app"></div>
 <script src="jspm_packages/system.js"></script>
-<script src="config.js"></script>
+<script src="jspm.browser.js"></script>
+<script src="jspm.config.js"></script>
 <script src="https://cdn.polyfill.io/v1/polyfill.min.js?features=Intl.~locale.en"></script>
 <script>
-    var readyForMainLoad
-    if (location.origin.match(/localhost/)) {
-     System.trace = true
-     readyForMainLoad = System.import('capaj/systemjs-hot-reloader').then(function(HotReloader){
-       hr = new HotReloader.default('http://localhost:9080')  // chokidar-socket-emitter port
-     })
-    }
-    Promise.resolve(readyForMainLoad).then(() => {
-     System.import('app').then(function () {
-       console.log('ran at ', new Date())
-     })
-    })
+    SystemJS.import('app.js');
 </script>
 </body>
 </html>

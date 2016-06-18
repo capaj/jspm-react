@@ -1,5 +1,5 @@
 import React, {PropTypes} from 'react'
-import counter from '../stores/example-store'
+import counter from '../stores/example-store.js'
 import {observer} from 'mobx-react'
 
 const Test = (props) => {

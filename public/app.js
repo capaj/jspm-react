@@ -1,9 +1,11 @@
+import 'capaj/systemjs-hot-reloader/default-listener.js'
+
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { browserHistory } from 'react-router'
 import { Router, Route } from 'react-router'
 
-import Home from './routes/home'
+import Home from './routes/home.js'
 import { IntlProvider, addLocaleData } from 'react-intl'
 import en from 'react-intl/locale-data/en'
 addLocaleData(en)
