@@ -164,6 +164,7 @@ SystemJS.config({
         "zlib": "github:jspm/nodelibs-zlib@0.2.0-alpha"
     },
     packages: {
+        "app": { "defaultExtension": 'js', main: 'app'},
         "github:capaj/systemjs-hot-reloader@0.6.0": {
             "map": {
                 "debug": "npm:debug@2.2.0",
