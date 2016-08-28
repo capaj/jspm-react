@@ -7,12 +7,12 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "postinstall": "node_modules/.bin/jspm install",
+    "postinstall": "jspm install",
     "precommit": "npm test",
-    "pretest": "node_modules/.bin/standard",
+    "pretest": "standard",
     "start": "node server",
     "test": "node run-tests",
-    "build": "node_modules/.bin/jspm bundle app --inject --minify"
+    "build": "jspm bundle app --inject --minify"
   },
   "repository": {
     "type": "git",
