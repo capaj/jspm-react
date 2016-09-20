@@ -3,7 +3,6 @@ SystemJS.config({
   defaultJSExtensions: true,
   paths: {
     "github:": "jspm_packages/github/",
-    "npm:": "jspm_packages/npm/",
-    "react-app/": "/src/"
+    "npm:": "jspm_packages/npm/"
   }
 });

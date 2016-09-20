@@ -53,6 +53,7 @@
       "https": "github:jspm/nodelibs-https@^0.2.0-alpha",
       "mobx": "npm:mobx@^2.3.2",
       "net": "github:jspm/nodelibs-net@^0.2.0-alpha",
+      "os": "github:jspm/nodelibs-os@^0.2.0-alpha",
       "path": "github:jspm/nodelibs-path@^0.2.0-alpha",
       "process": "github:jspm/nodelibs-process@^0.2.0-alpha",
       "react": "npm:react@^15.1.0",
@@ -88,12 +89,12 @@
           "util": "@node/util"
         }
       },
-      "npm:inherits@2.0.1": {
+      "npm:inherits@2.0.3": {
         "ignore": [
           "test.js"
         ]
       },
-      "npm:lodash@4.14.0": {
+      "npm:lodash@4.16.0": {
         "map": {
           "buffer": "@empty",
           "process": "@empty"
@@ -107,25 +108,25 @@
   },
   "dependencies": {
     "http-server": "^0.9.0",
-    "chokidar-socket-emitter": "^0.5.2"
+    "chokidar-socket-emitter": "^0.5.4"
   },
   "devDependencies": {
     "babel": "^6.5.2",
-    "babel-register": "^6.9.0",
+    "babel-register": "^6.14.0",
     "babel-plugin-transform-react-jsx": "^6.8.0",
-    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2015": "^6.14.0",
     "chai": "^3.5.0",
-    "enzyme": "^2.3.0",
-    "glob": "^7.0.3",
-    "husky": "^0.11.4",
-    "jspm": "^0.17.0-beta.22",
-    "mocha": "^2.4.5",
+    "enzyme": "^2.4.1",
+    "glob": "^7.0.6",
+    "husky": "^0.11.7",
+    "jspm": "^0.17.0-beta.28",
+    "mocha": "^3.0.2",
     "mocha-jsdom": "^1.1.0",
-    "react": "^15.2.1",
-    "react-addons-test-utils": "^15.2.1",
-    "react-dom": "^15.2.1",
-    "standard": "^7.0.1",
-    "systemjs": "^0.19.27"
+    "react": "^15.3.2",
+    "react-addons-test-utils": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "standard": "^8.1.0",
+    "systemjs": "^0.19.38"
   },
   "standard": {
     "ignore": [
