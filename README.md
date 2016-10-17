@@ -19,10 +19,9 @@ npm build #build your bundle, use purely for production
 npm test #runs mocha/chai/jsdom tests in node.js
 ```
 
-## Why choose this over webpack boilerplate?
-Webpack's offering is good, but it is a big hack which lacks robustness. Even such basic thing as component event listeners is not working properly with webpack hot reloading*. JSPMs module system is robust and safe. It will not suprise you-ES6 modules are very predictable when hot reloaded, much more than raw React components. Try it for yourself. Speed is certainly not the issue anymore.
+## Why choose JSPM over webpack anyway?
+Webpack's offering is good. Frankly it just comes down to your personal preference of package manager. System.js might be easier to integrate if you don't want to bother with a build process. It can run straight from the source, whereas webpack can't.
 
-*this is true for react-hot-loader pre 3.0.0
 ## Styles
 Make your own style pipeline, this boilerplate doesn't offer one. Me personally, I am fine with inline styles inside my react components most of the time, but that is just me.
 
