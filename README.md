@@ -1,4 +1,6 @@
-# jspm-react
+# jspm-react DEPRECATED
+This repo is deprecated-other bundlers have won the bundler wars-namely webpack or [parcel](https://github.com/parcel-bundler/parcel). Use them instead.
+
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 lightweight React.js boilerplate with [JSPM](https://github.com/jspm/jspm-cli) and [hot reloading modules](https://github.com/capaj/jspm-hot-reloader)
@@ -18,9 +20,6 @@ npm start #starts webserver and watcher, the http port is 9080
 npm build #build your bundle, use purely for production
 npm test #runs mocha/chai/jsdom tests in node.js
 ```
-
-## Why choose JSPM over webpack anyway?
-Webpack's offering is good. Frankly it just comes down to your personal preference of package manager. System.js might be easier to integrate if you don't want to bother with a build process. It can run straight from the source, whereas webpack can't.
 
 ## Styles
 Make your own style pipeline, this boilerplate doesn't offer one. Me personally, I am fine with inline styles inside my react components most of the time, but that is just me.
